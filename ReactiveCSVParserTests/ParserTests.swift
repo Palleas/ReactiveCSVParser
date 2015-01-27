@@ -31,7 +31,7 @@ class ParserTests: XCTestCase {
         var success: ObjCBool = true
         var parsingError: NSError?
         
-        let lines = signal.collect().asynchronousFirstOrDefault(nil, success: &success, error: &parsingError) as Array<String>
+        let lines = signal.collect().asynchronousFirstOrDefault(nil, success: &success, error: &parsingError) as Array<Array<String>>
         println("Resulting lines \(lines)")
         
         XCTAssertNotNil(lines, "Completed signal should not result in nil variable")

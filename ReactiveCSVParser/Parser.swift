@@ -50,6 +50,8 @@ class Parser: NSObject {
             return RACDisposable(block: { () -> Void in
                 
             })
+        }).map({ (line) -> AnyObject! in
+            return line.componentsSeparatedByString(",")
         })
     }
 }
