@@ -15,7 +15,7 @@ $characters = array_map(function ($character) {
 	return $row;
 }, json_decode($content, true)['data']['results']);
 
-$handle = fopen(__DIR__.'/characters.csv', 'w+');
+$handle = fopen(__DIR__.'/../ReactiveCSVParserTests/Fixtures/characters.csv', 'w+');
 
 foreach ($characters as $character) {
 	fputcsv($handle, $character);
