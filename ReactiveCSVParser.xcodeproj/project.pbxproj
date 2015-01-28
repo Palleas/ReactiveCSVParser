@@ -16,6 +16,7 @@
 		7AD1D1151A7836A800D74341 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD1D10C1A7833EC00D74341 /* ReactiveCocoa.framework */; };
 		7AD1D1171A783A7500D74341 /* ParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD1D1161A783A7500D74341 /* ParserTests.swift */; };
 		7AD1D1191A783ABB00D74341 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 7AD1D1181A783ABB00D74341 /* Fixtures */; };
+		82EB6E801A785BE60047FD0A /* ReactiveCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7AD1D10C1A7833EC00D74341 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,16 @@
 			dstSubfolderSpec = 10;
 			files = (
 				7AD1D10F1A7833F900D74341 /* ReactiveCocoa.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82EB6E7F1A785BDE0047FD0A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82EB6E801A785BE60047FD0A /* ReactiveCocoa.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +180,7 @@
 				7AD1D0D11A7816E800D74341 /* Sources */,
 				7AD1D0D21A7816E800D74341 /* Frameworks */,
 				7AD1D0D31A7816E800D74341 /* Resources */,
+				82EB6E7F1A785BDE0047FD0A /* CopyFiles */,
 			);
 			buildRules = (
 			);
