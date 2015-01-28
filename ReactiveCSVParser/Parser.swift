@@ -12,7 +12,7 @@ import ReactiveCocoa
 public class Parser: NSObject {
     let path: String
     
-    init(path: String) {
+    public init(path: String) {
         self.path = path
     }
     
