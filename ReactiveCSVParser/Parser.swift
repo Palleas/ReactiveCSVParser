@@ -9,7 +9,7 @@
 import Cocoa
 import ReactiveCocoa
 
-class Parser: NSObject {
+public class Parser: NSObject {
     let path: String
     
     init(path: String) {
