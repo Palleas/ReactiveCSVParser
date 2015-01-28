@@ -1,7 +1,7 @@
 <?php
 $ts = time();
-$publicKey = 'ad4226afe4d476d598b8ebfb4086d5fc';
-$privateKey = '35a89025a3f9182626089bcdbd51e82b4305eeac';
+$publicKey = '<INSERT MARVEL PUBLIC KEY>';
+$privateKey = '<INSERT MARVEL PRIVATE KEY>';
 
 $params = ['apikey' => $publicKey, 'ts' => $ts, 'hash' => md5($ts.$privateKey.$publicKey)];
 $url = 'http://gateway.marvel.com/v1/public/characters?'.http_build_query($params);
