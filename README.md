@@ -18,3 +18,4 @@ then splitting each lines into columns based on the comma character.
 
 ## License 
 
+See [LICENSE](https://github.com/Palleas/ReactiveCSVParser/blob/master/LICENSE) file.
