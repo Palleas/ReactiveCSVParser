@@ -88,7 +88,7 @@
 		7AD1D0C01A7816E800D74341 = {
 			isa = PBXGroup;
 			children = (
-				7AD1D10C1A7833EC00D74341 /* ReactiveCocoa.framework */,
+				825E494A1A787F7C00B4D977 /* Frameworks */,
 				7AD1D0CC1A7816E800D74341 /* ReactiveCSVParser */,
 				7AD1D0D91A7816E800D74341 /* ReactiveCSVParserTests */,
 				7AD1D0CB1A7816E800D74341 /* Products */,
@@ -138,6 +138,14 @@
 				7AD1D0DB1A7816E800D74341 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		825E494A1A787F7C00B4D977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD1D10C1A7833EC00D74341 /* ReactiveCocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
