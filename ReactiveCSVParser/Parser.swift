@@ -16,7 +16,7 @@ public class Parser: NSObject {
         self.path = path
     }
     
-    func parse() -> RACSignal {
+    public func parse() -> RACSignal {
         return RACSignal.createSignal({ (subscriber: RACSubscriber!) -> RACDisposable! in
             if let handler = NSFileHandle(forReadingAtPath: self.path) {
                 var offset = UInt64(0)
