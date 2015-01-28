@@ -51,7 +51,9 @@ class Parser: NSObject {
                 
             })
         }).map({ (line) -> AnyObject! in
-            return line.componentsSeparatedByString(",")
+            return line.componentsSeparatedByString(",").map({ (col)  -> AnyObject! in
+                return (col as String).stringByReplacingOccurrencesOfString("\"", withString: "")
+            })
         })
     }
 }

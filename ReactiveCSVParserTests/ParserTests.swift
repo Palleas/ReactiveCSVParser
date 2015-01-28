@@ -38,5 +38,9 @@ class ParserTests: XCTestCase {
         XCTAssertTrue(success, "Parsing should be a success")
         XCTAssertNil(parsingError, "Parsing shoud not raise any error")
         XCTAssertEqual(countElements(lines), 20, "Parsing should retrieve 20 lines")
+        
+        XCTAssertEqual(lines[0][0], "3-D Man", "First character's name should be 3-D Man")
+        XCTAssertEqual(lines[9][0], "Adam Destine", "10th character's name should be Adam Destine")
+        XCTAssertEqual(lines[19][0], "Ajaxis", "Last character's name should be Ajaxis")
     }
 }
