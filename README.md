@@ -2,8 +2,8 @@
 
 ## Installation
 
-	Simply add "Palleas/reactiveCSVParser" in your [Cartfile](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile).
-	Run `carthage update`, then drop the built Framework you need in your project.
+Add "Palleas/reactiveCSVParser" in your [Cartfile](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile).
+Then run `carthage update`, then drop the built Framework you need in your project.
 
 ## Usage
 
