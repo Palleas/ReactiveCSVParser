@@ -17,7 +17,7 @@ After we've got a parser, the parse method will return a [ReactiveCocoa](https:/
 ### Receiving results one-by-one
 
 The whole point of this library is to handle each line independently, so you can spread any processing out 
-instead of working with potentially huge CSV files.
+instead of working with potentially huge arrays.
 
 ```swift
 signal.subscribeNext({ (line) -> Void in
