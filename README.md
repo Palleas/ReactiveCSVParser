@@ -8,8 +8,8 @@ I guess at some point you could simply put ``Palleas/ReactiveCSVParser`` in a Ca
 
 You'll need [Carthage](http://github.com/Carthage/Carthage) to install the dependencies.
 
-  $ git clone git@github.com:Palleas/ReactiveCSVParser.git
-  $ carthage bootstrap
+    $ git clone git@github.com:Palleas/ReactiveCSVParser.git
+    $ carthage bootstrap
 
 ## Limitations
 
