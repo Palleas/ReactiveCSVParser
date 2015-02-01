@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+PROJECT=ReactiveCSVParser.xcodeproj
+SCHEME=ReactiveCSVParser
+
+xcodebuild test -project $PROJECT -scheme $SCHEME | bundle exec xcpretty -ct && exit ${PIPESTATUS[0]}
