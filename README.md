@@ -1,5 +1,9 @@
 # ReactiveCSVParser
 
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://doge.mit-license.org)
+[![Build Status](https://travis-ci.org/Palleas/ReactiveCSVParser.svg?branch=master)](https://travis-ci.org/Palleas/ReactiveCSVParser)
+[![Carthage Compatible](https://img.shields.io/badge/carthage-%E2%9C%93-5BA7E9.svg)](https://github.com/Carthage/Carthage/)
+
 ## Installation
 
 Add "Palleas/reactiveCSVParser" in your [Cartfile](https://github.com/Carthage/Carthage/blob/master/Documentation/Artifacts.md#cartfile).
